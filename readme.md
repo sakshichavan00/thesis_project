@@ -4,6 +4,11 @@
 
 This guide provides step-by-step instructions on setting up and running a simulation using the `test_custom_panther` and `camera_test_pkg` packages. Follow these steps to launch the Panther robot in a simulated environment and perform camera-based object detection and pose estimation.
 
+
+![image](images/panther.png)
+
+
+
 ## Step-by-Step Setup
 
 ### 1. Source the Husarion Workspace
