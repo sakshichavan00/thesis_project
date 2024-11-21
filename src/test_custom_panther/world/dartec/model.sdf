@@ -1,0 +1,168 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <model name="DARTeC">
+    <static>true</static>
+    
+    <link name="hangar">
+      <pose>0 0 0 -1.5708 3.1416 3.1416</pose>
+      
+      <visual name="hangar_visual">
+        <geometry>
+          <mesh>
+            <uri>model://dartec/meshes/hangar.STL</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient> 0.6 0.6 0.7 1</ambient>
+          <diffuse> 0.6 0.6 0.7 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0.1 0.1 0.1 1</emissive>
+        </material>
+      </visual>
+
+      <collision name="hangar_colission">
+        <geometry>
+          <mesh>
+            <uri>model://dartec/meshes/hangar.STL</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <bounce/>
+          <friction>
+            <ode/>
+          </friction>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+    
+    </link>
+    
+    <link name="airplane">
+      <pose>17.5 20 0 0 0 -2.3561</pose>
+      
+      <visual name="airplane_visual">
+        
+        <geometry>
+          <mesh>
+            <uri>model://dartec/meshes/airplane.STL</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient> 0.6 0.6 0.7 1</ambient>
+          <diffuse> 0.6 0.6 0.7 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+      </visual>
+
+      <collision name="airplane_colission">
+        
+        <geometry>
+          <mesh>
+            <uri>model://dartec/meshes/airplane.STL</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <bounce/>
+          <friction>
+            <ode/>
+          </friction>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+    
+    </link>
+    
+    <link name="building">
+      <pose>0 0 0 0 0 0</pose>
+      
+      <visual name="building_visual">
+        
+        <geometry>
+          <mesh>
+            <uri>model://dartec/meshes/building.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient> 0.6 0.6 0.7 1</ambient>
+          <diffuse> 0.6 0.6 0.7 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+      </visual>
+
+      <collision name="building_colission">
+        
+        <geometry>
+          <mesh>
+            <uri>model://dartec/meshes/building.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <bounce/>
+          <friction>
+            <ode/>
+          </friction>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+    
+    </link>
+    
+    
+    <link name="gpu">
+      <pose>10.2 11 0.2 0 0  1.5708</pose>
+      
+      <visual name="gpu_visual">
+        
+        <geometry>
+          <mesh>
+            <uri>model://dartec/meshes/gpu.stl</uri>
+            <scale>1.1 1.1 1.1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient> 0.6 0.6 0.7 1</ambient>
+          <diffuse> 0.6 0.6 0.7 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+      </visual>
+
+      <collision name="gpu_colission">
+        
+        <geometry>
+          <mesh>
+            <uri>model://dartec/meshes/gpu.stl</uri>
+            <scale>1.1 1.1 1.1</scale>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <bounce/>
+          <friction>
+            <ode/>
+          </friction>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+    
+    </link>
+
+    
+  </model> 
+</sdf>

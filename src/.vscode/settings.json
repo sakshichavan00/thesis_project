@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/sakshi/Desktop/IRP/ws_dartec/test_custom_panther_ws/build/test_custom_panther_cam",
+        "/home/sakshi/Desktop/IRP/ws_dartec/test_custom_panther_ws/install/test_custom_panther_cam/lib/python3.10/site-packages",
+        "/home/sakshi/Desktop/IRP/ws_dartec/test_custom_panther_ws/install/test_custom_panther/lib/python3.10/site-packages",
+        "/home/sakshi/Desktop/IRP/ws_dartec/test_custom_panther_ws/install/camera_test_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/sakshi/Desktop/IRP/ws_dartec/test_custom_panther_ws/build/test_custom_panther_cam",
+        "/home/sakshi/Desktop/IRP/ws_dartec/test_custom_panther_ws/install/test_custom_panther_cam/lib/python3.10/site-packages",
+        "/home/sakshi/Desktop/IRP/ws_dartec/test_custom_panther_ws/install/test_custom_panther/lib/python3.10/site-packages",
+        "/home/sakshi/Desktop/IRP/ws_dartec/test_custom_panther_ws/install/camera_test_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
